@@ -8,6 +8,10 @@ If you open the binder it will automatically generate a run environment that has
 
 If you have an ipynb that is named 'index.ipynb' it will initalize with that notebook. 
 
+Dockerfile will define the build environment -- including the install of the programs through apt-get or the like. 
+
+requirements.txt lists the python packages that you want to install through pip. 
+
 
 
 
